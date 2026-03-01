@@ -18,11 +18,11 @@ export default function Navbar() {
           <Link href="/restaurant">Restaurant</Link>
           <Link href="/gallery">Gallery</Link>
           <Link href="/contact">Contact</Link>
+
           <a
             className="btn btnPrimary"
             href={CLOUDBEDS_BOOKING_URL}
-            target="_blank"
-            rel="noreferrer"
+            data-be-url={CLOUDBEDS_BOOKING_URL}
           >
             Book Now
           </a>

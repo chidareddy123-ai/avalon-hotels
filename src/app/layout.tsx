@@ -1,3 +1,4 @@
+import Script from "next/script";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
@@ -33,6 +34,11 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+
+        <Script
+          src="https://us2.cloudbeds.com/widget/load/ic8Q5q/immersive"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
