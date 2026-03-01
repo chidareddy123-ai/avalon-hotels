@@ -46,4 +46,4 @@ export const BALLROOM = {
 
 // ✅ Put your Cloudbeds booking engine link here
 export const CLOUDBEDS_BOOKING_URL =
-  "https://hotels.cloudbeds.com/reservation/REPLACE_ME";
+  "https://us2.cloudbeds.com/reservation/ic8Q5q";
