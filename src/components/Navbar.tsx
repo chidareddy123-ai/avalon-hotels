@@ -19,13 +19,13 @@ export default function Navbar() {
           <Link href="/gallery">Gallery</Link>
           <Link href="/contact">Contact</Link>
 
-          <a
+          <button
+            type="button"
             className="btn btnPrimary"
-            href={CLOUDBEDS_BOOKING_URL}
             data-be-url={CLOUDBEDS_BOOKING_URL}
           >
             Book Now
-          </a>
+          </button>
         </nav>
       </div>
     </div>
